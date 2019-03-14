@@ -1,0 +1,148 @@
+
+body{
+    font-family: Montserrat-regular, sans-serif;
+    width: 1920px;
+}
+wrapper{
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+.intro-section{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    height: 1000px;
+
+}
+.header-name{
+    padding-left: 362px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.nav{
+    width: 50%;
+}
+.nav-menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 358px;
+}
+.nav-menu-item{
+    display: inline-flex;
+    font-size:14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 64px;
+}
+.nav-menu-item-link {
+    display:flex;
+    align-items: flex-end;
+}
+.nav-menu-item-link:hover{
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+    padding-bottom: 12px;
+}
+.shoping-cart{
+    height: 15px;
+    width: 18px;
+}
+.magnifying-glass{
+    height: 18px;
+    width: 18px;
+}
+.top-section{
+    text-align: center;
+    padding-bottom: 150px;
+    margin: 0 auto;
+    max-width: 802px;
+}
+.top-section__description{
+    padding-top: 164px;
+    margin: 0px;
+    font-size: 72px;
+   font-family: 'Kaushan Script', cursiv;
+    color: white;
+}
+.top-section__title{
+    margin: 0px;
+    padding-top: 42px;
+    text-transform: uppercase;
+    font-size: 150px;
+    font-weight: bold;
+    line-height: 0.93;
+    letter-spacing: normal;
+    color: white;
+
+}
+.top-section__title::after {
+    margin: 71px auto 51px auto;
+    display: block;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: white;
+}
+.btn-learn{
+    box-sizing: border-box;
+    padding: 12px 29px 11px 30px;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 3px solid white;
+    text-decoration: none;
+}
+.bottom-section{
+    /*text-align: center;*/
+
+}
+.bottom-menu{
+    padding: 0px;
+    list-style: none;
+    margin: 0 350px 0px 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.bottom-menu-item{
+    position: relative;
+    padding-top: 25px;
+    width: 280px;
+    text-transform: uppercase;
+    font-size: 18px;
+    align-items: flex-end;
+}
+.bottom-menu-item number{
+    font-size: 24px;
+    font-weight: bold;
+}
+.bottom-menu-item::before{
+    top: 0px;
+    position: absolute;
+    display: block;
+    content: "";
+    width: 280px;
+    height: 3px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+/*About Us section*/
+.section__header{
+    text-align: center;
+}
+
+
+
+
