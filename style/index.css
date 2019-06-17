@@ -383,3 +383,146 @@ hr{
     line-height: 1.6;
     max-width: 282px;
 }
+
+/*What we do section*/
+
+.whatWeDo__section--info {
+    max-width: 1200px;
+    margin: 90px auto 0px auto;
+    display: flex;
+}
+
+
+.whatWeDo__section--info img{
+    /*width: 50%;*/
+    margin-right: 30px;
+}
+
+.whatWeDo__section--info_actions{
+    max-width: 600px;
+    width: 100%;
+}
+
+.showMe{
+    display: flex;
+    border: 1px solid #e5e5e5;
+}
+/*.whatWeDo--activities{*/
+/*position: relative;*/
+/*display: inline;*/
+/*}*/
+
+.whatWeDo--activities img{
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.whatWeDo--activities:nth-child(2){
+    margin: 10px 0 10px 0;
+}
+
+.whatWeDo--explanation{
+    display: none;
+    border: 1px solid #e5e5e5;
+    font-size: 15px;
+    font-family: Roboto;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: left;
+    color: #999999;
+    padding: 20px;
+}
+
+.whatWeDo--activities:hover .whatWeDo--explanation{
+    display:block;
+}
+
+.whatWeDo--motto{
+    background: #f8f8f8;
+}
+
+.whatWeDo--info{
+    max-width: 990px;
+    max-height: 150px;
+    margin: 120px auto 0 auto;
+    /*background: #f8f8f8;*/
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    padding: 70px 0 70px 0;
+}
+
+.whatWeDo--image-background{
+    display: inline;
+    position: relative;
+}
+
+.whatWeDo--image-speech{
+    position: absolute;
+}
+
+.whatWeDo--images{
+    display: flex;
+    /*text-align: left;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.motto{
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: italic;
+    line-height: 1.5;
+    color: #999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 61px;
+}
+
+p::before{
+    display: inline-block;
+    content: "";
+    border-top: 3px solid #f38181;
+    width: 60px;
+    margin: 0 10px;
+    transform: translateY(-5px);
+}
+
+p{
+    font-family: 'Kaushan Script';
+    font-size: 24px;
+    color: #333333;
+    margin: 15px 0 0 0;
+    line-height: normal;
+}
+/*.whatWeDo--motto::after{*/
+/*position: absolute;*/
+/*bottom: 0px;*/
+/*!*right: calc(50% - 30px);*!*/
+/*!*margin: 0 auto;*!*/
+/*!*display: block;*!*/
+/*content: "Jon Doe";*/
+/*width: 60px;*/
+/*height: 3px;*/
+/*!*background-color: #f38181;*!*/
+/*color: black;*/
+/*}*/
+/*.whatWeDo--images img{*/
+/*width: 100%;*/
+/*}*/
+
+/*.whatWeDo--motto .whatWeDo--background, .motto{*/
+/*flex: 1;*/
+/*}*/
