@@ -267,33 +267,33 @@ body {
     margin: 0 15px 0 15px;
 }
 
- .users{
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%,-100%);
+.users{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-100%);
     position: absolute;
     display: none;
 }
 
- .super-team {
-     top:  50%;
-     left:  50%;
-     transform: translate(-50%,50%);
-     position: absolute;
+.super-team {
+    top:  50%;
+    left:  50%;
+    transform: translate(-50%,50%);
+    position: absolute;
     display: none;
 }
 
- .aboutUs__info{
-     background:#95e1d3;
-     display: flex;
-     justify-content: center;
- }
+.aboutUs__info{
+    background:#95e1d3;
+    display: flex;
+    justify-content: center;
+}
 
- .bottom__wrapper{
-     display: flex;
-     max-width: 1210px;
-     width: 100%;
-  }
+.bottom__wrapper{
+    display: flex;
+    max-width: 1210px;
+    width: 100%;
+}
 
 .aboutUs__info-item{
     width: 100%;
@@ -360,12 +360,12 @@ hr{
 }
 
 .services__info-text-col1{
-     font-family: Roboto-regular;
-     font-size: 15px;
-     color: #999999;
-     line-height: 1.6;
-     max-width: 273px;
- }
+    font-family: Roboto-regular;
+    font-size: 15px;
+    color: #999999;
+    line-height: 1.6;
+    max-width: 273px;
+}
 
 .services__info-text-col2{
     font-family: Roboto-regular;
@@ -539,7 +539,7 @@ p{
     text-align: center;
 }
 .icon--connection{
-   position: absolute;
+    position: absolute;
     top: 25%;
     left:25%;
 }
@@ -550,4 +550,8 @@ p{
 
 .socialMedia:hover{
     background: #f38181;
+}
+
+.socialMedia:hover .icon--connection{
+    filter: brightness(2.5);
 }
