@@ -524,10 +524,15 @@ p{
     height: 100%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -125%);
     position: absolute;
     background: #fce38a;
     display: none;
+}
+
+.ourTeam__background{
+    display: none;
+    position: absolute;
 }
 
 .socialMedia{
