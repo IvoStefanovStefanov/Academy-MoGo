@@ -387,6 +387,7 @@ hr{
 
 .whatWeDo__section--info {
     max-width: 1200px;
+    max-height: 380px;
     margin: 90px auto 0px auto;
     display: flex;
 }
@@ -427,13 +428,14 @@ hr{
 .whatWeDo--explanation{
     display: none;
     border: 1px solid #e5e5e5;
+    border-top:none;
     font-size: 15px;
     font-family: Roboto;
     font-style: italic;
-    line-height: 1.6;
+    line-height: 1.4;
     text-align: left;
     color: #999999;
-    padding: 20px;
+    padding: 21px 55px 28px 20px;
 }
 
 .whatWeDo--activities:hover .whatWeDo--explanation{
