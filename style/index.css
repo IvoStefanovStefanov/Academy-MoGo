@@ -518,6 +518,14 @@ p{
     position: absolute;
 }
 
+.section__image:hover .ourTeam__background{
+    top: -10px;
+    left:-10px;
+    display: inline;
+    opacity: 0.9;
+    box-shadow: 10px 10px #95e1d3;
+}
+
 .socialMedia{
     position: relative;
     max-width: 56px;
