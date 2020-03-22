@@ -252,7 +252,7 @@ body {
 
 .picture{
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 .background {
@@ -265,6 +265,7 @@ body {
 .section__image{
     position: relative;
     margin: 0 15px 0 15px;
+    /*width: 100%;*/
 }
 
 .users{
@@ -369,13 +370,14 @@ hr{
 
 .whatWeDo__section--info {
     max-width: 1200px;
-    max-height: 380px;
+    min-height: 380px;
     margin: 90px auto 0px auto;
     display: flex;
 }
 
 .whatWeDo__section--info img{
     margin-right: 30px;
+    align-self: flex-start;
 }
 
 .whatWeDo__section--info_actions{
@@ -516,6 +518,7 @@ p{
 .ourTeam__background{
     display: none;
     position: absolute;
+    width: 100%;
 }
 
 .section__image:hover .ourTeam__background{
@@ -540,6 +543,16 @@ p{
     left:25%;
 }
 
+.svg{
+    position: absolute;
+    top: 25%;
+    left:40%;
+}
+
+.icon--facebook{
+    fill:#f38181;
+}
+
 .section__image:hover .team--connection{
     display: flex;
 }
@@ -549,5 +562,9 @@ p{
 }
 
 .socialMedia:hover .icon--connection{
-    filter: brightness(2.5);
+      filter: brightness(2.5);
+  }
+
+.socialMedia:hover .icon--facebook{
+    fill:#ffffff;
 }
