@@ -549,7 +549,7 @@ p{
     left:40%;
 }
 
-.icon--facebook{
+.icon--socialMedia{
     fill:#f38181;
 }
 
@@ -561,10 +561,6 @@ p{
     background: #f38181;
 }
 
-.socialMedia:hover .icon--connection{
-      filter: brightness(2.5);
-  }
-
-.socialMedia:hover .icon--facebook{
+.socialMedia:hover .icon--socialMedia{
     fill:#ffffff;
 }
