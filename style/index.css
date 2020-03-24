@@ -162,6 +162,7 @@ body {
     margin-top: -3px;
     padding-top: 25px;
     max-width: 70px;
+
 }
 
 .intro-section-info-item number{
@@ -220,7 +221,7 @@ body {
     font-family: 'Roboto';
 }
 
-.story__wrapper{
+.section__wrapper{
     max-width: 1210px;
     margin: 0 auto;
     padding-top: 100px;
@@ -228,31 +229,31 @@ body {
     padding-bottom: 110px;
 }
 
-.story__image:hover .background, .users, .super-team {
+.section__image:hover .background, .users, .super-team {
     display: inline;
     top: -10px;
     left:-10px;
 }
 
-.story__image:hover .background{
+.section__image:hover .background{
     display: inline;
     opacity: 0.9;
     box-shadow: 10px 10px #95e1d3;
 }
 
-.story__image:hover .users {
+.section__image:hover .users {
     display: inline;
     box-shadow: none;
 }
 
-.story__image:hover .super-team {
+.section__image:hover .super-team {
     display: inline;
     box-shadow: none;
 }
 
 .picture{
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 .background {
@@ -262,38 +263,39 @@ body {
     position: absolute;
 }
 
-.story__image{
+.section__image{
     position: relative;
     margin: 0 15px 0 15px;
+    /*width: 100%;*/
 }
 
- .users{
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%,-100%);
+.users{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-100%);
     position: absolute;
     display: none;
 }
 
- .super-team {
-     top:  50%;
-     left:  50%;
-     transform: translate(-50%,50%);
-     position: absolute;
+.super-team {
+    top:  50%;
+    left:  50%;
+    transform: translate(-50%,50%);
+    position: absolute;
     display: none;
 }
 
- .aboutUs__info{
-     background:#95e1d3;
-     display: flex;
-     justify-content: center;
- }
+.aboutUs__info{
+    background:#95e1d3;
+    display: flex;
+    justify-content: center;
+}
 
- .bottom__wrapper{
-     display: flex;
-     max-width: 1210px;
-     width: 100%;
-  }
+.bottom__wrapper{
+    display: flex;
+    max-width: 1210px;
+    width: 100%;
+}
 
 .aboutUs__info-item{
     width: 100%;
@@ -322,4 +324,245 @@ body {
     border-right: 1px solid rgba(255,255,255,0.3);
 }
 
+/*Services section*/
+.section__services {
+    max-width: 1200px;
+    margin: 60px auto 0px auto;
+}
+
+.section__services-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #e5e5e5;
+}
+
+.activities{
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 320px;
+}
+
+.services__info{
+    padding-left: 27px;
+}
+
+.services__info-title{
+    margin:0px;
+    padding-bottom: 20px;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.services__info-text-col{
+    font-family: Roboto-regular;
+    font-size: 15px;
+    color: #999999;
+    line-height: 1.6;
+}
+
+/*What we do section*/
+
+.whatWeDo__section--info {
+    max-width: 1200px;
+    min-height: 380px;
+    margin: 90px auto 0px auto;
+    display: flex;
+}
+
+.whatWeDo__section--info img{
+    margin-right: 30px;
+    align-self: flex-start;
+}
+
+.whatWeDo__section--info_actions{
+    max-width: 600px;
+    width: 100%;
+}
+
+.showMe{
+    display: flex;
+    border: 1px solid #e5e5e5;
+}
+
+.whatWeDo--activities img{
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.whatWeDo--activities:nth-child(2){
+    margin: 10px 0 10px 0;
+}
+
+.whatWeDo--explanation{
+    display: none;
+    border: 1px solid #e5e5e5;
+    border-top:none;
+    font-size: 15px;
+    font-family: Roboto;
+    font-style: italic;
+    line-height: 1.4;
+    text-align: left;
+    color: #999999;
+    padding: 21px 55px 28px 20px;
+}
+
+.whatWeDo--activities:hover .whatWeDo--explanation{
+    display:block;
+}
+
+.whatWeDo--motto{
+    background: #f8f8f8;
+}
+
+.whatWeDo--info{
+    max-width: 990px;
+    margin: 120px auto 0 auto;
+    display: flex;
+    padding: 70px 0 70px 0;
+}
+
+.whatWeDo--image-background{
+    display: inline;
+    position: relative;
+}
+
+.whatWeDo--image-speech{
+    position: absolute;
+}
+
+.whatWeDo--images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.motto{
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: italic;
+    line-height: 1.5;
+    color: #999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 61px;
+}
+
+p::before{
+    display: inline-block;
+    content: "";
+    border-top: 3px solid #f38181;
+    width: 60px;
+    margin: 0 10px;
+    transform: translateY(-5px);
+}
+
+p{
+    font-family: 'Kaushan Script';
+    font-size: 24px;
+    color: #333333;
+    margin: 15px 0 0 0;
+    line-height: normal;
+}
+
+/*Meet our team section*/
+
+.team--name{
+    font-family: Montserrat-regualar;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    padding: 31px 0 15px 0;
+    text-transform: uppercase;
+}
+
+.team--position{
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 15px;
+    color: #999999;
+    text-align: center;
+}
+
+.team--connection{
+    display: flex;
+    max-width: 224px;
+    max-height: 56px;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -125%);
+    position: absolute;
+    background: #fce38a;
+    display: none;
+}
+
+.ourTeam__background{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.section__image:hover .ourTeam__background{
+    top: -10px;
+    left:-10px;
+    display: inline;
+    opacity: 0.9;
+    box-shadow: 10px 10px #95e1d3;
+}
+
+.socialMedia{
+    position: relative;
+    max-width: 56px;
+    width: 100%;
+    max-height: 56px;
+    height: 100%;
+    text-align: center;
+}
+.icon--connection{
+    position: absolute;
+    top: 25%;
+    left:25%;
+}
+
+.svg{
+    position: absolute;
+    top: 25%;
+    left:40%;
+}
+
+.icon--socialMedia{
+    fill:#f38181;
+}
+
+.section__image:hover .team--connection{
+    display: flex;
+}
+
+.socialMedia:hover{
+    background: #f38181;
+}
+
+.socialMedia:hover .icon--socialMedia{
+    fill:#ffffff;
+}
 
