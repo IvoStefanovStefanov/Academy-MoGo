@@ -566,3 +566,16 @@ p{
     fill:#ffffff;
 }
 
+.section__hipster{
+    margin-top: 80px;
+    background: #f8f8f8;
+    display: flex;
+    justify-content: center;
+}
+
+.hipster{
+    padding: 51px 0 50px 0;
+    max-width: 1212px;
+    width: 100%;
+}
+
