@@ -585,8 +585,6 @@ p{
     margin:0 auto;
 }
 
-
-
 .ourWork__images {
     padding-top: 102px;
     display: flex;
@@ -601,7 +599,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 .work__images-background{
     display: none;
@@ -666,3 +664,15 @@ p{
     font-style: italic;
 }
 
+.whatWeDo__info--ourWork{
+    max-width: 1010px;
+    padding-bottom: 130px;
+}
+
+.whatWeDo__image-background--ourWork{
+    border-radius: 50%;
+}
+
+.motto--ourWork{
+    padding-left: 31px;
+}
