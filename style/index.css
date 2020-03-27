@@ -676,3 +676,50 @@ p{
 .motto--ourWork{
     padding-left: 31px;
 }
+
+/*Happy clients section*/
+
+.happyClients__section{
+    background-color: #f8f8f8;
+}
+
+.ourClients{
+    padding: 20px 0 130px 0;
+
+}
+
+.image__client{
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.team__name--client{
+    padding: 12px 0 15px 0;
+    text-align: start;
+}
+
+.team__position--client{
+    text-align: start;
+    padding-bottom: 17px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.team__position--client::after{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.section__services-row--client{
+    padding-top: 70px;
+    justify-content: space-between;
+}
+
+.activities--client{
+    flex-basis: 510px;
+}
