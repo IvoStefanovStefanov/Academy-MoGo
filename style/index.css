@@ -566,3 +566,157 @@ p{
     fill:#ffffff;
 }
 
+.section__hipster{
+    margin-top: 80px;
+    background: #f8f8f8;
+    display: flex;
+    justify-content: center;
+}
+
+.hipster{
+    padding: 51px 0 50px 0;
+    max-width: 1212px;
+    width: 100%;
+}
+
+/*Some of our work section*/
+
+.ourWork__section{
+    margin:0 auto;
+}
+
+.ourWork__images {
+    max-width: 1920px;
+    padding-top: 102px;
+    max-height: 780px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.work__images-background{
+    display: none;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.work__image{
+    display: flex;
+    max-height: 780px;
+    height: 100%;
+    position: relative;
+}
+
+.work__image:hover .work__images-background{
+    display: flex;
+}
+
+.work__image:hover .work__images-background2{
+    display: flex;
+    max-height: 780px;
+    max-width: 480px;
+    width:100%;
+    height: 100%;
+}
+
+.work__images-background2{
+    display: none;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.background__text{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.work__image:hover  .background__text{
+    display: inline;
+}
+
+.logo{
+    filter: brightness(2.5);
+}
+
+.logo__title{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat-regular;
+    padding: 20px 0 17px 0;
+}
+
+.logo__text{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Roboto;
+    font-style: italic;
+}
+
+.whatWeDo__info--ourWork{
+    max-width: 1010px;
+    padding-bottom: 130px;
+}
+
+.whatWeDo__image-background--ourWork{
+    border-radius: 50%;
+}
+
+.motto--ourWork{
+    padding-left: 31px;
+}
+
+/*Happy clients section*/
+
+.happyClients__section{
+    background: url(../images/Layer_53.jpg) no-repeat center;
+}
+
+.ourClients{
+    padding: 60px 0 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.activities--client{
+    flex-basis: 450px;
+    margin-bottom: 60px;
+}
+
+.image__client{
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.team__name--client{
+    padding: 12px 0 15px 0;
+    text-align: start;
+}
+
+.team__position--client{
+    text-align: start;
+    padding-bottom: 17px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.team__position--client::after{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+
+
+
