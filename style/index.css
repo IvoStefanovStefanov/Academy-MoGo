@@ -266,7 +266,7 @@ body {
 .section__image{
     position: relative;
     margin: 0 15px 0 15px;
-    /*width: 100%;*/
+    width: 100%;
 }
 
 .users{
@@ -655,7 +655,7 @@ p{
 .logo__text{
     color: #ffffff;
     font-size: 15px;
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     font-style: italic;
 }
 
@@ -719,7 +719,76 @@ p{
 
 /*Our stories section*/
 
+.team__name--ourStories{
+    padding: 20px 0 20px 0;
+    text-align: start;
+}
 
+.team__position--ourStories {
+    text-align: start;
+    line-height: 1.6;
+    color: #999999;
+}
+
+.ourStories{
+    margin: 20px 0 20px 0;
+}
+
+.responds{
+    display: flex;
+}
+
+.views{
+    font-size: 15px;
+    font-style: italic;
+    font-family: Roboto;
+    color: #999999;
+    line-height: 1;
+}
+
+.comments{
+    font-size: 15px;
+    font-style: italic;
+    font-family: Roboto;
+    color: #999999;
+    line-height: 1;
+}
+
+.eye{
+    max-height: 12px;
+    margin-right: 7px;
+}
+
+.speech{
+    margin: 0px 6px 0px 17px;
+}
+
+.image-block{
+    position: relative;
+}
+
+.date-block{
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+    background: #95e1d3;
+    color: white;
+    padding: 15px;
+}
+
+.day{
+    font-family: Montserrat-bold;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.month{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
+}
 
 
 
