@@ -719,10 +719,6 @@ p{
 
 /*Our stories section*/
 
-/*.ourStories__section{*/
-    /*max-width: 1200px;*/
-/*}*/
-
 .ourStories__image{
     width: 100%;
 }
@@ -746,7 +742,8 @@ p{
 }
 
 .ourStories{
-    margin: 20px 0 20px 0;
+    margin: 20px auto;
+    max-width: 1200px;
 }
 
 .responds{
@@ -816,11 +813,11 @@ p{
     margin: 0 auto;
     display: flex;
     padding-bottom: 50px;
+    padding-top: 80px;
 }
 
 .followers__title{
     margin: 0px;
-    padding-top: 74px;
     font-family: 'Montserrat', extra-bold;
     font-size: 46px;
     color: #cccccc;
@@ -835,7 +832,7 @@ p{
 }
 
 .follow_us{
-    padding-bottom: 65px;
+    padding-bottom: 40px;
     display: flex;
 }
 
@@ -847,8 +844,12 @@ p{
     font-style: italic;
 }
 
+.follow_us_icons{
+    word-spacing: 10px;
+}
+
 .mail{
-    padding: 10px;
+    padding: 9px;
     border: 1px solid #cccccc;
     font-style: italic;
     font-size: 14px;
@@ -860,19 +861,30 @@ p{
     padding: 10px 20px 10px 20px;
     text-transform: uppercase;
     color: white;
-    border: 1px solid #cccccc;
+    border: none;
     font-size: 14px;
     font-family: 'Montserrat';
     font-weight: bold;
-    }
+}
 
-::placeholder {
+::-webkit-input-placeholder {
+    color:    #cccccc;
+}
+
+::-moz-placeholder {
+    color:    #cccccc;
+}
+
+:-moz-placeholder {
+    color:    #cccccc;
+}
+
+:-ms-input-placeholder {
     color:    #cccccc;
 }
 
 .blog__titles{
     margin: 0px;
-    padding-top: 90px;
     font-family: 'Montserrat';
     font-size: 14px;
     height: 10px;
@@ -882,7 +894,7 @@ p{
     font-weight: bold;
 }
 
-.different__titles{
+.blog_section{
     display: flex;
     padding-bottom: 31px;
 }
@@ -906,8 +918,12 @@ p{
 }
 
 .instagram__images{
-    max-height: 325px;
+    max-height: 300px;
     height: 100%;
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
 }
 
 .more__photos{
@@ -915,18 +931,21 @@ p{
     font-family: Roboto;
     font-style: italic;
     font-size: 13px;
+    padding-top: 20px;
 }
 
-.section__image1{
-    width: 40%;
+.section__mogoSubscribe{
+    width: 100%;
+    max-width: 460px;
   }
 
-.section__image2{
-    margin: 0 15px 0 15px;
-    width: 35%;
+.section__blogs{
+    margin: 0 70px 0 30px;
+    width: 100%;
+    max-width: 340px;
 }
 
-.section__image3{
+.section__instagram{
     width: 100%;
     max-width: 310px;
 }
@@ -935,9 +954,13 @@ p{
     width: 30%;
 }
 
-.footer{
+footer{
     font-family: Montserrat;
     color: #333333;
     text-align: center;
     font-size: 14px;
+}
+
+.footer__color{
+    color:#f38181;
 }
