@@ -266,7 +266,7 @@ body {
 .section__image{
     position: relative;
     margin: 0 15px 0 15px;
-    /*width: 100%;*/
+    width: 100%;
 }
 
 .users{
@@ -655,7 +655,7 @@ p{
 .logo__text{
     color: #ffffff;
     font-size: 15px;
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     font-style: italic;
 }
 
@@ -717,6 +717,250 @@ p{
     background-color: #f38181;
 }
 
+/*Our stories section*/
 
+.ourStories__image{
+    width: 100%;
+}
 
+.ourStories__image--middle{
+    padding: 0 30px 0 30px;
+}
 
+.ourStories__name{
+    padding: 20px 0 20px 0;
+    text-align: start;
+    text-transform: uppercase;
+}
+
+.ourStories__text{
+    text-align: start;
+    line-height: 1.6;
+    color: #999999;
+    font-family: Roboto;
+    font-size:15px;
+}
+
+.ourStories{
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.responds{
+    display: flex;
+}
+
+.views{
+    font-size: 15px;
+    font-style: italic;
+    font-family: Roboto;
+    color: #999999;
+    line-height: 1;
+}
+
+.comments{
+    font-size: 15px;
+    font-style: italic;
+    font-family: Roboto;
+    color: #999999;
+    line-height: 1;
+}
+
+.eye{
+    max-height: 12px;
+    margin-right: 7px;
+}
+
+.speech{
+    margin: 0px 6px 0px 17px;
+}
+
+.image-block{
+    position: relative;
+}
+
+.date-block{
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+    background: #95e1d3;
+    color: white;
+    padding: 15px;
+}
+
+.day{
+    font-family: Montserrat-bold;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.month{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
+}
+
+/*Final section*/
+
+.final__section{
+    background-color: #f8f8f8;
+}
+
+.finalSection__wrapper{
+    max-width: 1210px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.followers__title{
+    margin: 0px;
+    font-family: 'Montserrat', extra-bold;
+    font-size: 46px;
+    color: #cccccc;
+}
+
+.team__position--final{
+    font-family: 'Roboto', Roboto-regular;
+    color: #999999;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 42px 0 46px 0;
+}
+
+.follow_us{
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.follow_us_text{
+    font-size: 15px;
+    color: #999999;
+    padding-right: 23px;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+
+.follow_us_icons{
+    word-spacing: 10px;
+}
+
+.mail{
+    padding: 9px;
+    border: 1px solid #cccccc;
+    font-style: italic;
+    font-size: 14px;
+    float: left;
+}
+
+.submit{
+    background-color: #95e1d3;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+    color:    #cccccc;
+}
+
+::-moz-placeholder {
+    color:    #cccccc;
+}
+
+:-moz-placeholder {
+    color:    #cccccc;
+}
+
+:-ms-input-placeholder {
+    color:    #cccccc;
+}
+
+.blog__titles{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    height: 10px;
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+
+.blog_section{
+    display: flex;
+    padding-bottom: 31px;
+}
+
+.blog__title{
+    text-transform: uppercase;
+    padding: 20px 0 0 20px;
+    font-size: 12px;
+    font-family: Montserrat;
+    text-align: left;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.date{
+    padding: 12px 0 7px 0;
+    color: #999999;
+    font-family: Roboto;
+    font-style: italic;
+    text-transform: none;
+}
+
+.instagram__images{
+    max-height: 300px;
+    height: 100%;
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.more__photos{
+    color: #333333;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.section__mogoSubscribe{
+    width: 100%;
+    max-width: 460px;
+  }
+
+.section__blogs{
+    margin: 0 70px 0 30px;
+    width: 100%;
+    max-width: 340px;
+}
+
+.section__instagram{
+    width: 100%;
+    max-width: 310px;
+}
+
+.instagram__image{
+    width: 30%;
+}
+
+footer{
+    font-family: Montserrat;
+    color: #333333;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer__color{
+    color:#f38181;
+}
